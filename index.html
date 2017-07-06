@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TODO List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>TODO List</h1>
+        <input type='textbox' id='todo' placeholder='TODO Item' />
+        <div id='error'></div>
+        <div class='actions'>
+            <button id='add'> Add </button>
+            <button id='reset'> Reset Search</button>
+            <button id='search'> Search </button>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class='actions'>
+                <button id='delete'> Delete </button>
+                <button id='done'> Done </button>
+                <button id='undo' class='hide'> Undo </button>
+            </div>
+            <ul id='todos'>
+            </ul>
+        </section>
+    </main>
+    <script type="text/javascript" src='main.js'></script>
+</body>
+
+</html>

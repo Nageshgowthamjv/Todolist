@@ -1,0 +1,75 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+}
+header, footer, main, nav, aside, article, section {
+	margin: 0px;
+	padding: 0px;
+}
+body{	
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+}
+header{
+	padding: 20px;
+	background-color: rgba(255, 176, 0, 0.48);
+}
+header h1{
+	border-bottom: 1px solid #349e4f;
+}
+section{
+	    background-color: rgba(255, 193, 7, 0.23);
+}
+#todo{
+	height: 40px;
+    width: 97%;
+    padding-left: 20px;
+    font-size: 14px;
+}
+#todos{
+	list-style-type: none;
+    padding: 20px;
+}
+#todos li{
+	padding: 20px;
+    background-color: rgba(240, 228, 124, 0.45);
+    border-bottom: 2px solid #4CAF50;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+}
+.delete{
+	border-bottom: 1px solid red;
+	margin: 0px 8px;
+    cursor: pointer;
+}
+.todoInfo{
+	width: 100%;
+}
+.todoAction{
+	width: 60px;
+}
+input[type='checkbox']{
+	width: 20px;
+}
+#reset, #search{
+	float: right;
+}
+.actions{
+	padding: 20px;
+}
+button{
+	width: 200px;
+	height: 40px;
+}
+#undo{
+	float: right;
+}
+.hide{
+	display: none !important;
+}
+.done .todoInfo{
+	text-decoration: line-through;
+}
